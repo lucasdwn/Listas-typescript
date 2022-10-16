@@ -2,9 +2,9 @@ import Impressor from "../interfaces/impressor";
 import Telefone from "../modelos/telefone";
 
 export default class ImpressorTelefone implements Impressor {
-    private telefone!: Telefone;
+    private telefone: Telefone;
 
-    cosntructor(telefone: Telefone) {
+    constructor(telefone: Telefone) {
         this.telefone = telefone;
     };
 
